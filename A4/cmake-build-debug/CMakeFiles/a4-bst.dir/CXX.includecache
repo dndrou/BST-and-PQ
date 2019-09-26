@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danielle/Desktop/class/250/A4/src/a4-bst.hpp
+iostream
+-
+tNode.hpp
+/home/danielle/Desktop/class/250/A4/src/tNode.hpp
+
+/home/danielle/Desktop/class/250/A4/src/main-bst.cpp
+a4-bst.hpp
+/home/danielle/Desktop/class/250/A4/src/a4-bst.hpp
+tNode.hpp
+/home/danielle/Desktop/class/250/A4/src/tNode.hpp
+vector
+-
+iostream
+-
+
+/home/danielle/Desktop/class/250/A4/src/tNode.hpp
+

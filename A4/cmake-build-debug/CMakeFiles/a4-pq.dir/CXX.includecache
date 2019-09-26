@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danielle/Desktop/class/250/A4/src/a4-pq.hpp
+queue
+-
+vector
+-
+algorithm
+-
+
+/home/danielle/Desktop/class/250/A4/src/main-pq.cpp
+a4-pq.hpp
+/home/danielle/Desktop/class/250/A4/src/a4-pq.hpp
+vector
+-
+iostream
+-
+

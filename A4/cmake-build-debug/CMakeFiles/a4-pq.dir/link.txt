@@ -1,0 +1,1 @@
+/usr/bin/c++  -ggdb -std=c++11 -Wall -Wextra -g   CMakeFiles/a4-pq.dir/src/main-pq.cpp.o  -o a4-pq 

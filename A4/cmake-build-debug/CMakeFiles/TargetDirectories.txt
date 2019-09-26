@@ -1,0 +1,6 @@
+/home/danielle/Desktop/class/250/A4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/danielle/Desktop/class/250/A4/cmake-build-debug/CMakeFiles/a4-pq.dir
+/home/danielle/Desktop/class/250/A4/cmake-build-debug/CMakeFiles/a4-pq-obj.dir
+/home/danielle/Desktop/class/250/A4/cmake-build-debug/CMakeFiles/a4-bst-obj.dir
+/home/danielle/Desktop/class/250/A4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/danielle/Desktop/class/250/A4/cmake-build-debug/CMakeFiles/a4-bst.dir

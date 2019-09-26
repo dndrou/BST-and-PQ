@@ -1,0 +1,64 @@
+/**
+ * A4/src/a4-bst.hpp
+ *
+ * Copyright 2019 Andrew Hughes (ahughes6@buffalo.edu)
+ *
+ * This work is licensed under the Creative Commons 
+ * Attribution-NonCommercial-ShareAlike 4.0 International License.
+ * To view a copy of this license, visit
+ * http://creativecommons.org/licenses/by-nc-sa/4.0/.
+ *
+ * Submission by
+ * UBIT: 
+ * Person#: 
+ */
+
+#ifndef _A4_BST_HPP_
+#define _A4_BST_HPP_
+
+
+#include "tNode.hpp"
+
+void addVal(const int val, cse250::tNode<int>* root) {
+    if (val > root->value) {
+        if (root->right != nullptr)
+        {
+            addVal(val, root->right);
+        }else{
+            root->right = new cse250::tNode<int>;
+            root->right->value = val;
+            root->right->right = nullptr;
+            root->right->left = nullptr;
+        }
+    }else{
+        if(root->left != nullptr){
+            addVal(val,root->left);
+        }else{
+            root->left = new cse250::tNode<int>;
+            root->left->value = val;
+            root->left->left = nullptr;
+            root->left->right = nullptr;
+        }
+    }
+}
+cse250::tNode<int>* preToTree(const int* begin, const int* end) {
+    if(begin == end || begin == nullptr){
+        return nullptr;
+    }
+    cse250::tNode<int>* root = new cse250::tNode<int>;
+    const int* temp;
+    root->value = *begin;
+    root->left = nullptr;
+    root->right = nullptr;
+
+
+        for (int i = 1; begin + i != end; i++) {
+            temp = begin+i;
+            addVal(*temp, root);
+        }
+
+    return root;
+}
+
+
+#endif //_A4_BST_HPP_

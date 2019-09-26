@@ -1,0 +1,1 @@
+/usr/bin/c++  -ggdb -std=c++11 -Wall -Wextra -g   CMakeFiles/a4-bst.dir/src/main-bst.cpp.o  -o a4-bst 
