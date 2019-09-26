@@ -1,6 +1,6 @@
 
 
-This is a C++ language project that I completed while taking the CSE-250 Systems Programming course taught by Andrew Hughes at The University at Buffalo.
+This is a C++ language project that I completed while taking the CSE-250 Data Structures course taught by Andrew Hughes at The University at Buffalo.
 
 This is a program that creates a binary search tree and a priority queue. 
 - For the BST, I was tasked with creating the addVal method which adds a value to the BST, along with the preToTree method that turns data into a tree by parsing it as preorder.
